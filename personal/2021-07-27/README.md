@@ -4,5 +4,9 @@
 
 
 
-## Task 2: Robot.java all tests passed.
+## Task 2: Robot.java. All tests passed.
 ![20210727____3](https://user-images.githubusercontent.com/12487549/127159255-45cc02ac-5004-420a-bcfe-1bf538b2918c.jpg)
+
+## Task 3: Result3.java. 17/17 tests passed.
+![20210727____4](https://user-images.githubusercontent.com/12487549/127174671-6842345e-c158-417c-a201-7634064f5949.jpg)
+
