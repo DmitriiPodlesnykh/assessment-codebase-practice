@@ -6,6 +6,7 @@ import static java.util.stream.Collectors.*;
 public class Solution {
     
     public static void main(String[] args) {
+    
         final List<String> result = DataProvider.prepareInputParams().stream()
         .map(e -> update(e))
         .collect(toList());
@@ -59,7 +60,7 @@ public class Solution {
     
     private static String toMethod(String value) {
         if (value.contains("()")) {
-            return value;
+            return value.substring(0, value.length()-2);
         } else {
             return value + "()";
         }
