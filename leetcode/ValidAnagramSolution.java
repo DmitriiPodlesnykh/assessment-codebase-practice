@@ -1,11 +1,13 @@
 
 /**
-* Time Submitted   | Status   | Runtime| Memory
-* 12/11/2021 14:35 | Accepted |	2 ms	 | 39.1 MB
-*
-* Runtime: faster than 95.56% of submissions. Memory Usage: less than 82.06% of submissions.
-*
-*/
+ * Source: https://leetcode.com/problems/valid-anagram/
+ *
+ * Time Submitted   | Status   | Runtime| Memory
+ * 12/11/2021 14:35 | Accepted |	2 ms	 | 39.1 MB
+ *
+ * Runtime: faster than 95.56% of submissions. Memory Usage: less than 82.06% of submissions.
+ *
+ */
 class ValidAnagramSolution {
   
     public boolean isAnagram(String firstString, String secondString) {
