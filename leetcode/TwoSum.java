@@ -22,7 +22,24 @@ class Solution {
         return null;
     }
     
+    
+    /**
+     * Liner time complexity O(n) solution
+     * 
+     * Runtime: 3 ms, faster than 85.25% of Java online submissions for Two Sum.
+     * Memory Usage: 46.4 MB, less than 13.02% of Java online submissions for Two Sum.
+     */
     public int[] twoSum(int[] nums, int target) {
-        
+        final Map<Integer, Integer> firstArrayValueIndexMap = new HashMap<>();
+        for (int i=0; i< nums.length; i++) {
+            int calculation = target - nums[i];
+            
+            if (firstArrayValueIndexMap.containsKey(calculation)) {
+                return new int[] {firstArrayValueIndexMap.get(calculation), i};
+            }
+            
+            firstArrayValueIndexMap.put(nums[i], i);
+        }
+        return null;
     }
 }
