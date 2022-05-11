@@ -1,5 +1,12 @@
 class Solution {
-    public int[] twoSum(int[] nums, int target) {
+    
+    /**
+     * Quadratic time complexity O(n2) solution
+     * 
+     * Runtime: 75 ms, faster than 25.72% of Java online submissions for Two Sum.
+     * Memory Usage: 42.3 MB, less than 88.84% of Java online submissions for Two Sum.
+     */
+    public int[] twoSum_n2(int[] nums, int target) {
         int first;
         int second;
         for (int i=0; i< nums.length; i++) {
@@ -13,5 +20,9 @@ class Solution {
             }
         }
         return null;
+    }
+    
+    public int[] twoSum(int[] nums, int target) {
+        
     }
 }
